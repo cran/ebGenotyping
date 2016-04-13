@@ -2,29 +2,29 @@
 \alias{logit}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-       Logit Transformation
+Logit Transformation
 }
 \description{
-Logit Transformation:ln(x/(1-x))
+This function is for calculating the logit transformation:ln(x/(1-x))
 }
 \usage{
 logit(x)
 }
+%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{
-A probability, which is greater than 0 and less than 1.
+A numeric vector, whose elements are all greater than 0 and less than 1.
 }
 }
 \value{
 ln(x/(1-x))
 }
 \references{
-Na You and Gongyi Huang.(2015) Genotyping for Rare Variant Detection Using Next-generation Sequencing Data.
+Na You and Gongyi Huang.(2016) An Empirical Bayes Method for Genotyping and SNP detection Using Multi-sample Next-generation Sequencing Data.
 }
 \author{
-Na You <youn@mail.sysu.edu.cn> and Gongyi Huang<huanggyi@mail2.sysu.edu.cn>
+Na You <youn@mail.sysu.edu.cn> and Gongyi Huang<53hgy@163.com>
 }
 \examples{
 logit(0.5)
 }
-
